@@ -21,24 +21,27 @@ li {
   font-size: 20px;
   padding: 5px; }
 
+/* If not the last child of the list, add right border. Used to separate links.*/
 li:not(:last-child) {
-  border-right: 1px solid black; }
-
-a {
-  text-decoration: none; }
-
-a:hover {
-  color: #ffffff; }
+  border-right: 1px solid white; }
 
 li:hover {
-  background-color: #000000;
+  background-color: #ffffff;
+  color: #000000; }
+
+a {
+  text-decoration: none;
   color: #ffffff; }
 
+a:hover {
+  color: #000000;
+  text-decoration: underline; }
+
 header {
-  background-color: lightgray; }
+  background-color: #1964FF; }
 
 footer {
-  background-color: darkgray; }
+  background-color: #32A0FF; }
 
 /**
  * Grid
