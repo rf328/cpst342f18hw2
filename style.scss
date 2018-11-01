@@ -30,6 +30,7 @@ li {
   display: inline-block;
   font-size: 20px;
   padding: 5px;
+  color: #ffffff;
 }
 
 /* If not the last child of the list, add right border. Used to separate links.*/
@@ -37,9 +38,9 @@ li:not(:last-child) {
 border-right: 1px solid white;
 }
 
-li:hover {
-  background-color: #ffffff;
-  color: #000000;
+li a:hover {
+  font-weight: bolder;
+  text-decoration: underline;
 }
 
 a {
@@ -47,13 +48,8 @@ a {
   color: #ffffff;
 }
 
-a:hover {
-  color: #000000;
-  text-decoration: underline;
-}
-
 header {
-	background-color: #1964FF;
+	background-color: #003366;
 }
 
 footer {
