@@ -48,6 +48,12 @@ a {
   color: #ffffff;
 }
 
+#mypic {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
 header {
 	background-color: #003366;
 }
@@ -57,10 +63,7 @@ footer {
 }
 
 
-//CSS Grid
-/**
- * Grid
- */
+/* CSS Grid */
 
 .row {
   margin: 20px 0;
