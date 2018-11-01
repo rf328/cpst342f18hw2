@@ -25,6 +25,30 @@ p {
 	margin-bottom: 30px;
 }
 
+
+li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 5px;
+}
+
+li:not(:last-child) { 
+border-right: 1px solid black;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+li:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
 header {
 	background-color: lightgray;
 }
